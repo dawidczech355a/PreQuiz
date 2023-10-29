@@ -123,10 +123,10 @@ Error generating stack: `+i.message+`
   }
 `,o1=b.table`
   width: 100%;
+  display: block;
+  overflow-x: auto;
   
   @media only screen and ${xt.md} {
-    display: block;
-    overflow-x: auto;
     width: 50%;
   }
 `,Yc=b.th`
